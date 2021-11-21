@@ -6,8 +6,15 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
 </head>
 <body>
-  <app-root></app-root>
+  <app-root>
+    <div id="AjaxLoaderContainer" style="position: fixed; inset: 0px; background-color: rgba(50, 50, 50, 0.5); z-index: 999999999; display: none;">
+      <div style="position:absolute;left:50%;margin-left:-100px;width:200px;height:200px;top:50%;margin-top:-100px;">
+          <img src="/Images/loader2.svg" style="width:200px;height:200px;">
+      </div>
+  </div>
+  </app-root>
 </body>
 </html>
